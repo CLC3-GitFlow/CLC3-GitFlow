@@ -1,0 +1,31 @@
+title Usecase 1
+
+GitHub->GitHub: Feature Branch in Develop Branch
+GitHub->SonarQube: Codequalität überprüfen
+SonarQube->GitHub: Codequalität Resultat
+GitHub->GitHub: Merge blockieren falls Codequalität nicht passt. Andernfalls Merge zulassen.
+GitHub->User: Info wenn Codequalität failed.
+
+title Usecase 2
+
+GitHub->GitHub: Neue Version auf Release Branch
+GitHub->GitHub: Neuer Tag wird erstellt.
+GitHub->DockerHub: Image wird im Dockerhub hinterlegt.
+
+title Usecase 3
+
+GitHub->GitHub: Hotfix wird erkannt als Branch
+GitHub->GitHub: Nach Hofix merge wird automatisch neuer Tag erstellt.
+GitHub->DockerHub: Hofix wird mit einer (major, Minor, Patch) Version released.
+GitHub->User: Info über Hotfix
+
+title Usecase 4
+
+GitHub->GitHub: Änderungen im Major und Minor Level wird erkannt.
+GitHub->GitHub: Readme Datei wird automatisch mit Info angepasst.
+
+title Usecase 5
+
+GitHub<-->ExternalUrl: Datensätze werden regelmäßig abgefragt und im Repo gespeichert.
+GitHub->GitHub: Nach Update der Datensätze werden die Daten automatisch mir R gecleaned.
+GitHub->GitHub: Datensätze werden versioniert.
