@@ -3,6 +3,11 @@
 
 [GITHUB ACTIONS WHAAAT????](https://docs.github.com/en/actions/learn-github-actions)
 
+# Branches
+
+![image](https://user-images.githubusercontent.com/68330032/145993696-b4797f1a-3d4f-470d-afe6-9f5fecbfe24c.png)
+
+
 CLC3 GitFlow Projekt
 
 
