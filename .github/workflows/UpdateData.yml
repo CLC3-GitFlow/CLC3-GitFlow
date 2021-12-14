@@ -1,4 +1,4 @@
-name: Update data
+name: Update Data
 on:
   schedule:
     - cron: 0 0 * * * 
