@@ -1,7 +1,7 @@
 # CLC3-GitFlow
 [WHAT ARE WE EVEN DOING?](https://docs.google.com/spreadsheets/d/1TND9vrQhHt1GK2RZ2cM7CNtNGox4a7Rkn2qamFMTSvg/edit#gid=0)
 
-[GITHUB ACTIONS WHAAAT????](https://docs.github.com/en/actions/learn-github-actions)
+[GITHUB ACTIONS WHAAAT?](https://docs.github.com/en/actions/learn-github-actions)
 
 # Branches
 
