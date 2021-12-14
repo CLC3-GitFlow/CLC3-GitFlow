@@ -7,7 +7,7 @@ await r_install.status();
 
 // 2. Forward the execution to the R script
 const r_run = Deno.run({
-    cmd: ['Rscript', '/data/help/clean.R']
+    cmd: ['Rscript', 'clean.R']
 });
 
 await r_run.status();
