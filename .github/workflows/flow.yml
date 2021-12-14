@@ -28,12 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Start to test and build the artifact
-
-      # Runs a set of commands using the runners shell
-      - name: Run test and build
-        run: |
-          go test -v ./...
-          CGO_ENABLED=0 GOARCH=amd64 go build -o demo
           
       # Boot Docker builder using by default the docker-container
       - name: Set up Docker Buildx
