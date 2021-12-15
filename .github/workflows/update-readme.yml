@@ -10,13 +10,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
-      - name: Set env
-        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
-      - name: Test
-        run: |
-          echo $RELEASE_VERSION
-          echo ${{ env.RELEASE_VERSION }}
-
+      
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CONTEXT"
+        
       - uses: muesli/readme-scribe@master
         env:
           GITHUB_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }}
