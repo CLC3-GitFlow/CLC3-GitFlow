@@ -11,8 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@master
       
-      - name: Get Release version
-        run: echo "${{ github.event.release.tag_name }}"
+      - name: Dump env
+        run: env | sort
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
         
       - uses: muesli/readme-scribe@master
         env:
