@@ -2,9 +2,10 @@ name: Update Changelog
 
 on:
   push:
+    # Sequence of patterns matched against refs/tags
     tags:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
-  
+
 jobs:
   build:
     name: Create Release
@@ -12,22 +13,21 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Changelog
-        uses: Bullrich/generate-release-changelog@master
-        id: Changelog
-        env:
-          REPO: ${{ github.repository }}
+      
+      - run: "git fetch --prune --unshallow --tags"
+
+      - name: Create changelogs
+        id: changelogs
+        uses: heineiuo/create-changelogs@master
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+          GITHUB_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            ${{ steps.Changelog.outputs.changelog }}
+          release_name: ${{ github.ref }}
+          body: ${{ steps.changelogs.outputs.changelogs }}
           draft: false
-          prerelease: false
+          prerelease: ${{ steps.changelogs.outputs.release_type == 'prerelease' }}
