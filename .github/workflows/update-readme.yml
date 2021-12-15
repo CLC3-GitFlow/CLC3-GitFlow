@@ -13,7 +13,7 @@ jobs:
       
       - name: Dump GitHub context
         env:
-          GITHUB_CONTEXT: ${{github.ref_name}}
+          GITHUB_CONTEXT: ${{ github.event.release.tag_name }}
         run: echo "$GITHUB_CONTEXT"
         
       - uses: muesli/readme-scribe@master
