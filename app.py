@@ -32,6 +32,7 @@ def home():
 
 @app.route('/api/v1/resources/books/all', methods=['GET'])
 def api_all():
+    print() debug() stop()
     return jsonify(books)
 
 
