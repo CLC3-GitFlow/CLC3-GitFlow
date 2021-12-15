@@ -1,2 +1,2 @@
-{{ ${{ steps.tag_version.outputs.new_tag }} }}
+ ${{ steps.tag_version.outputs.new_tag }}
 {{humanize .Timestamp}}
