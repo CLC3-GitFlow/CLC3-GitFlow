@@ -1,4 +1,4 @@
-name: Update Changelog
+name: Update Changelog by Pull Request
 
 on: 
   pull_request:
