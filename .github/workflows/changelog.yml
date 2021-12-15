@@ -11,3 +11,4 @@ jobs:
         uses: heinrichreimer/github-changelog-generator-action@v2.3
         with:
           token: ${{ secrets.OUR_GITHUB_TOKEN }} 
+          changelog: CHANGE_LOG.md
