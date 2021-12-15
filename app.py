@@ -32,6 +32,9 @@ def home():
 
 @app.route('/api/v1/resources/books/all', methods=['GET'])
 def api_all():
+    mskjdfnmkjlsdnmfkldsnfkljdsnfkljnsd
+    id = 1
+    print(x)
     return jsonify(books)
 
 
