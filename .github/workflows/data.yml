@@ -5,23 +5,22 @@ on:
   workflow_dispatch: {}
   push:
     branches:
-      - main # Or master, or whatever branch you'd like to 'watch'
+      - master
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-      # This step installs Deno, which is a Javascript runtime
       - name: Setup deno
         uses: denoland/setup-deno@main
         with:
           deno-version: v1.x
-      # Check out the repository so it can read the files inside of it and do other operations
+
       - name: Check out repo
         uses: actions/checkout@v2
-      # The Flat Action step
+
       - name: Fetch data
         uses: githubocto/flat@v2
         with:
-          http_url: ${{ secrets.DATA_URL }} # File to download
-          downloaded_filename: data/raw.xlsx # Name of downloaded file
-          postprocess: data/help/postprocess.ts # Runs upon completion
+          http_url: ${{ secrets.DATA_URL }} 
+          downloaded_filename: data/raw.xlsx 
+          postprocess: data/help/postprocess.ts 
