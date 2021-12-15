@@ -18,3 +18,10 @@ CLC3 GitFlow Projekt
 ![Usecase3](Usecases/Usecase3.png)
 ![Usecase4](Usecases/Usecase4.png)
 ![Usecase5](Usecases/Usecase5.png)
+
+# How did we do what?
+
+## Usecase 1
+[Stop merge if check not okay](https://stackoverflow.com/questions/58654530/how-to-auto-reject-a-pull-request-if-tests-are-failing-github-actions)
+Successfull only means, that the check was completed, not that the check was successfull. Confusing, I know.
+TMP FIX: Notification if activated in Settings > Notifications > Address & Approaved header
