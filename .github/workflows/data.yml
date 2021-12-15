@@ -1,4 +1,4 @@
-name: Update Data
+name: Update Data Repo
 on:
   schedule:
     - cron: 0 0 * * * 
