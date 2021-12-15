@@ -13,7 +13,7 @@ jobs:
       
       - name: Dump GitHub context
         env:
-          GITHUB_CONTEXT: ${{ toJSON(github) }}
+          GITHUB_CONTEXT: ${{github.ref_name}}
         run: echo "$GITHUB_CONTEXT"
         
       - uses: muesli/readme-scribe@master
