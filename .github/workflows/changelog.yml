@@ -11,9 +11,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
       - name: Run Changelog CI
         uses: saadmk11/changelog-ci@v1.0.0
         with:
-          release_version: ${{ github.event.inputs.release_version }}
+          release_version: ${{ env.RELEASE_VERSION }}
           github_token: ${{ secrets.OUR_GITHUB_TOKEN }}
