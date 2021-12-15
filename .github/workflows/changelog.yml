@@ -2,7 +2,7 @@ name: Update Changelog
 on:
   push:
     branches:
-      - release
+      - master
 jobs:
   changelog:
     runs-on: ubuntu-20.04
@@ -10,4 +10,4 @@ jobs:
       - name: "✏️ Generate release changelog"
         uses: heinrichreimer/github-changelog-generator-action@v2.3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }} 
+          token: ${{ secrets.OUR_GITHUB_TOKEN }} 
