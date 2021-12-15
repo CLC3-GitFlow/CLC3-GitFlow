@@ -1,4 +1,10 @@
 # CLC3-GitFlow
+
+[![Stable Version](https://img.shields.io/github/v/tag/CLC3-GitFlow/CLC3-GitFlow)](https://img.shields.io/github/v/tag/CLC3-GitFlow/CLC3-GitFlow)
+[![Latest Release](https://img.shields.io/github/v/release/CLC3-GitFlow/CLC3-GitFlow?color=%233D9970)](https://img.shields.io/github/v/release/CLC3-GitFlow/CLC3-GitFlow?color=%233D9970)
+
+# Info
+
 [WHAT ARE WE EVEN DOING?](https://docs.google.com/spreadsheets/d/1TND9vrQhHt1GK2RZ2cM7CNtNGox4a7Rkn2qamFMTSvg/edit#gid=0)
 
 [GITHUB ACTIONS WHAAAT?](https://docs.github.com/en/actions/learn-github-actions)
