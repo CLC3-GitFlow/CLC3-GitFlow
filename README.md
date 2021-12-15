@@ -1,7 +1,10 @@
 # CLC3-GitFlow
 
-[![Stable Version](https://img.shields.io/github/v/tag/CLC3-GitFlow/CLC3-GitFlow)](https://img.shields.io/github/v/tag/CLC3-GitFlow/CLC3-GitFlow)
-[![Latest Release](https://img.shields.io/github/v/release/CLC3-GitFlow/CLC3-GitFlow?color=%233D9970)](https://img.shields.io/github/v/release/CLC3-GitFlow/CLC3-GitFlow?color=%233D9970)
+[![License](https://img.shields.io/github/license/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](https://github.com/CLC3-GitFlow/CLC3-GitFlow/commits)
+[![Latest tag](https://img.shields.io/github/tag/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](https://github.com/CLC3-GitFlow/CLC3-GitFlow/releases)
+[![Issues](https://img.shields.io/github/issues/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](https://github.com/CLC3-GitFlow/CLC3-GitFlow/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pulls)
 
 # Info
 
