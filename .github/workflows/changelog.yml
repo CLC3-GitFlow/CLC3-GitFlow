@@ -15,4 +15,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }}
         OUTPUT_FOLDER: temp_release_notes
-        USE_MILESTONE_TITLE: "true"
+        USE_MILESTONE_TITLE: "false"
