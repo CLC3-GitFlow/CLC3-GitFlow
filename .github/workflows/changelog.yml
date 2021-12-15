@@ -1,10 +1,9 @@
 name: Update Changelog
 
 on: 
-  push:
-    branches:
-      - master
-      
+  pull_request:
+    types: [opened, reopened]
+    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,4 +17,5 @@ jobs:
         uses: saadmk11/changelog-ci@v1.0.0
         with:
           release_version: ${{ env.RELEASE_VERSION }}
+          config_file: changelog-ci-config.yaml
           github_token: ${{ secrets.OUR_GITHUB_TOKEN }}
