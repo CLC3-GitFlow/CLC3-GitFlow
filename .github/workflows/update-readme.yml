@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@master
       
       - name: Get Release version
-        run: echo ${{ github.event.release.tag_name }}
+        run: echo "${{ github.event.release.tag_name }}"
         
       - uses: muesli/readme-scribe@master
         env:
