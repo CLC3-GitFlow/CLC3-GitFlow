@@ -12,3 +12,4 @@ jobs:
         with:
           token: ${{ secrets.OUR_GITHUB_TOKEN }} 
           changelog: CHANGE_LOG.md
+          output: CHANGE_LOG.md
