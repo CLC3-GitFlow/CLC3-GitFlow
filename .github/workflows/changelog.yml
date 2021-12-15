@@ -4,6 +4,12 @@ on:
   pull_request:
     types: [opened, reopened]
     
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Set Release Version'
+        required: true
+    
 jobs:
   build:
     runs-on: ubuntu-latest
