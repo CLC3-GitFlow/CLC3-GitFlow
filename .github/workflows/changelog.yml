@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - master
+      
+  workflow_dispatch:
+    inputs:
+      milestoneId:
+        description: 'Milestone ID'     
+        required: true
+        default: '1'
 
 jobs:
   create-release-notes:
@@ -15,4 +22,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }}
         OUTPUT_FOLDER: temp_release_notes
-        USE_MILESTONE_TITLE: "false"
+        USE_MILESTONE_TITLE: "true"
