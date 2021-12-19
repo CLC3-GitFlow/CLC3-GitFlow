@@ -1,6 +1,6 @@
 # CLC3-GitFlow
 
- - [ ] (1) Ein Entwickler möchte einen Feature Branch in den Master Branch mergen. Dabei wird Sonarqube dazu verwendet um die Codequalität zu checken und gegebenfalls den merge blockieren falls diese Pipeline failed. Benachrichtigung wird erzeugt.
+ - [x] (1) Ein Entwickler möchte einen Feature Branch in den Master Branch mergen. Dabei wird Sonarqube dazu verwendet um die Codequalität zu checken und gegebenfalls den merge blockieren falls diese Pipeline failed. Benachrichtigung wird erzeugt.
   - [ ] (2) Es gibt eine neue Version auf dem Release Branch. Versionierung in Github mit Tags und ebenso Artifakte (Image) wird auf Docker automatisch ausgerollt.
   - [ ] (3) Hotfix wird erkannt und im Anschluss werden Update mit Versionen auf allen angegebenen Apps released in entsprechender Version (major minor patch)
   - [ ] (4) Nach einer Änderung auf Major und Minor Ebene soll die Readme Datei upgedated werden mit zusätzlichen Information darüber. 
