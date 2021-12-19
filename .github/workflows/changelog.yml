@@ -1,27 +1,25 @@
+# This is a basic workflow to help you get started with Actions
+
 name: Update Changelog
 
+# Controls when the action will run. 
 on:
-  pull_request:
-    types: [opened, reopened]
-    
+  # Triggers the workflow on push or pull request events but only for the main branch
+  
+  create:
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  # This workflow contains a single job called "build"
   build:
+    if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Run Changelog CI
-        uses: saadmk11/changelog-ci@v0.5.0
-        with:
-          # Optional, you can provide any name for your changelog file.
-          # defaults to ``CHANGELOG.md`` if not provided.
-          changelog_filename: CHANGELOG.md
-          # Optional, only required when you want more customization
-          config_file: changelog-ci-config.json
-        env:
-          # Optional, Only required for ``private`` repositories
-          # and required if the changelog comment 
-          # option is turned on through the config file
-          GITHUB_TOKEN: ${{secrets.OUR_GITHUB_TOKEN}}
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ${{github.ref}}
