@@ -1,4 +1,4 @@
-name: update readme
+name: Update README
 on:
   push:
     branches:
@@ -14,4 +14,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Print current tag
-        run: echo ${{ steps.tag_version.outputs.release_type }} 
+        run: echo ${{ steps.tag_version.outputs.previous_tag }} 
