@@ -1,4 +1,4 @@
-name: Update Tags
+name: Increase Tags
 on:
   push:
     branches:
