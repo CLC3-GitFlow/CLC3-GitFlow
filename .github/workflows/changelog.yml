@@ -1,27 +1,27 @@
 name: Update Changelog
 
-on: 
+on:
   pull_request:
     types: [opened, reopened]
-    
-  workflow_dispatch:
-    inputs:
-      release_version:
-        description: 'Set Release Version'
-        required: true
     
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # Checks-out your repository
       - uses: actions/checkout@v2
-      - name: Set env
-        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
       - name: Run Changelog CI
-        uses: saadmk11/changelog-ci@v1.0.0
+        uses: saadmk11/changelog-ci@v0.5.0
         with:
-          release_version: ${{ env.RELEASE_VERSION }}
-          config_file: changelog-ci-config.yaml
-          github_token: ${{ secrets.OUR_GITHUB_TOKEN }}
+          # Optional, you can provide any name for your changelog file.
+          # defaults to ``CHANGELOG.md`` if not provided.
+          changelog_filename: CHANGELOG.md
+          # Optional, only required when you want more customization
+          config_file: changelog-ci-config.json
+        env:
+          # Optional, Only required for ``private`` repositories
+          # and required if the changelog comment 
+          # option is turned on through the config file
+          GITHUB_TOKEN: ${{secrets.OUR_GITHUB_TOKEN}}
