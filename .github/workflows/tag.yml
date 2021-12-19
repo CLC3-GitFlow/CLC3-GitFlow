@@ -7,6 +7,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: dev-drprasad/delete-older-releases@v0.2.0
+        with:
+          repo: CLC3-GitFlow/CLC3-GitFlow # defaults to current repo
+          keep_latest: 1
+        env:
+          GITHUB_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }}
       - uses: actions/checkout@v2
       #- name: Bump version and push tag
         #id: tag_version
