@@ -33,6 +33,6 @@ jobs:
 
           subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
           body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
-          to: clc3.gitflow@gmail.com
+          to: ${{ secrets.EMAIL_USERNAME }}
           from: CLC3 Gitflow
 
