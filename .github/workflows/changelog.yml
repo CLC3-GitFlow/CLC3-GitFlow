@@ -28,7 +28,7 @@ jobs:
 
       - name: Commit files
         env:
-          CI_USER: BenjaminPils
+          CI_USER: CLC3-Gitflow
           CI_EMAIL: CLC3-GitFlow
         run: |
           git config --local user.email "$CI_EMAIL"
