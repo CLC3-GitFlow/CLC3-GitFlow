@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update README.md [\#18](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pull/18) ([AnanasReh](https://github.com/AnanasReh))
 - Hotfix/cool hotfix 1 [\#17](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pull/17) ([AnanasReh](https://github.com/AnanasReh))
 
 ## [v1.0.0](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.0) (2021-12-19)
