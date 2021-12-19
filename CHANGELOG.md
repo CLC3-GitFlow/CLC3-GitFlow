@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/HEAD)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.0...HEAD)
+
+**Merged pull requests:**
+
+- Hotfix/cool hotfix 1 [\#17](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pull/17) ([AnanasReh](https://github.com/AnanasReh))
+
 ## [v1.0.0](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.0) (2021-12-19)
 
 [Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v0.0.50...v1.0.0)
