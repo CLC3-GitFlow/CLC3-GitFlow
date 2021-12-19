@@ -60,7 +60,6 @@ jobs:
       - name: Log Version
         run: echo ${{ steps.tag_version.outputs.previous_tag }}
       
-      # Build a Docker image based on provided Dockerfile
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
