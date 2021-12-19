@@ -1,4 +1,4 @@
-name: Update Hotfix Master
+name: Merge Hotfix
 on:
   push:
     branches:
