@@ -8,9 +8,9 @@ on:
   
   # MASTER MUST BE PROTECTED -> delete push option!
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
