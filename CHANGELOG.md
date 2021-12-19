@@ -1,8 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/HEAD)
+## [v1.0.2](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.2) (2021-12-19)
 
-[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.0...HEAD)
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.1...v1.0.2)
+
+## [v1.0.1](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.1) (2021-12-19)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.0...v1.0.1)
 
 **Merged pull requests:**
 
