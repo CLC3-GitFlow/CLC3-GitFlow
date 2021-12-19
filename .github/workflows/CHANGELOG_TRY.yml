@@ -23,7 +23,7 @@ jobs:
       - name: Generate changelog
         uses: charmixer/auto-changelog-action@v1
         with:
-          since_tag: 'v0.0.1'
+          since_tag: 'v0.0.0'
           token: ${{ secrets.OUR_GITHUB_TOKEN }}
 
       - name: Commit files
