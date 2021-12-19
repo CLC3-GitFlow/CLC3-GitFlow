@@ -23,6 +23,7 @@ jobs:
       - name: Generate changelog
         uses: charmixer/auto-changelog-action@v1
         with:
+          since_tag: 'v0.0.1'
           token: ${{ secrets.OUR_GITHUB_TOKEN }}
 
       - name: Commit files
@@ -39,7 +40,7 @@ jobs:
       - name: Push changes
         if: env.push == 'true'
         env:
-          CI_USER: BenjaminPils
+          CI_USER: CLC3-Gitflow
           CI_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }}
         run: |
           git push "https://$CI_USER:$CI_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD:master
