@@ -1,5 +1,37 @@
 # Changelog
 
+## [v1.1.1](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.1) (2021-12-19)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.0...v1.1.1)
+
+**Merged pull requests:**
+
+- feat\(nr4\): nice [\#20](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pull/20) ([AnanasReh](https://github.com/AnanasReh))
+
+## [v1.1.0](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.0) (2021-12-19)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.14...v1.1.0)
+
+## [v1.0.14](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.14) (2021-12-19)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.13...v1.0.14)
+
+## [v1.0.13](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.13) (2021-12-19)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.12...v1.0.13)
+
+## [v1.0.12](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.12) (2021-12-19)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.11...v1.0.12)
+
+## [v1.0.11](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.11) (2021-12-19)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.10...v1.0.11)
+
+## [v1.0.10](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.10) (2021-12-19)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.9...v1.0.10)
+
 ## [v1.0.9](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.0.9) (2021-12-19)
 
 [Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.0.8...v1.0.9)
