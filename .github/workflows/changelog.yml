@@ -1,8 +1,10 @@
 name: Create Changelog
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [ master ]
+    paths-ignore:
+      - '**/CHANGELOG.md'
 
 jobs:
   generate_changelog:
