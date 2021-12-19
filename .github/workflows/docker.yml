@@ -6,9 +6,8 @@ name: Docker Flow
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   
-  pull_request:
+  push:
     branches: [ master ]
-    types: [ merged ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
