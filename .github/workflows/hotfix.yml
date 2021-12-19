@@ -2,7 +2,7 @@ name: Merge Hotfix
 on:
   push:
     branches:
-      - 'hotfix/*'
+      - 'fila_hotfix/*'
 jobs:  
    merge-master:
      runs-on: ubuntu-latest
