@@ -1,0 +1,30 @@
+name: Update Hotfix
+on:
+  push:
+    branches:
+      - 'hotfix/*'
+jobs:
+   merge-develop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Merge hotfix -> develop
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          target_branch: develop
+          github_token: ${{ github.token }}
+    
+   merge-main:
+     runs-on: ubuntu-latest
+     steps:
+      - uses: actions/checkout@master
+
+      - name: Merge hotfix -> develop
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          target_branch: main
+          github_token: ${{ github.token }}
+   
