@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository
       - uses: actions/checkout@v2
 
       - name: Run Changelog CI
