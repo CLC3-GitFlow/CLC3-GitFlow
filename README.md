@@ -43,4 +43,4 @@ CLC3 GitFlow Projekt
 ## Usecase 1
 [Stop merge if check not okay](https://stackoverflow.com/questions/58654530/how-to-auto-reject-a-pull-request-if-tests-are-failing-github-actions)
 Successfull only means, that the check was completed, not that the check was successfull. Confusing, I know.
-TMP FIX: Notification if activated in Settings > Notifications > Address & Approaved header
+TMP FIX: Notification if activated in Settings > Notifications > Address & Approaved header + https://myaccount.google.com/lesssecureapps
