@@ -6,9 +6,6 @@ name: Docker Flow
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   
-  # MASTER MUST BE PROTECTED -> delete push option!
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
