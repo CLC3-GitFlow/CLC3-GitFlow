@@ -3,6 +3,8 @@ name: Create Changelog
 on:
   push:
     branches: [ master ]
+    paths-ignore:
+      - '**/CHANGELOG.md'
 
 jobs:
   generate_changelog:
