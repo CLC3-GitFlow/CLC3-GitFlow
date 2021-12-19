@@ -1,0 +1,7 @@
+name: Update Hotfix
+on:
+  push:
+    branches:
+      - hotfix/*
+  
+    
