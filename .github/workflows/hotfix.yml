@@ -16,15 +16,15 @@ jobs:
           target_branch: develop
           github_token: ${{ github.token }}
     
-   merge-main:
+   merge-master:
      runs-on: ubuntu-latest
      steps:
       - uses: actions/checkout@master
 
-      - name: Merge hotfix -> develop
+      - name: Merge hotfix -> master
         uses: devmasx/merge-branch@master
         with:
           type: now
-          target_branch: main
+          target_branch: master
           github_token: ${{ github.token }}
    
