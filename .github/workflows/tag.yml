@@ -2,6 +2,7 @@ name: Increase Tags
 on:
   pull_request:
     branches: [ master ]
+    types: [ merged ]
 jobs:
   build:
     runs-on: ubuntu-latest
