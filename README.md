@@ -12,11 +12,11 @@
 
 
 ## Team
-:information_desk_person: Benjamin U. Pils, BSc. <s2010595016@fhooe.at>
+:beer: Benjamin U. Pils, BSc. <s2010595016@fhooe.at>
 
-:information_desk_person: Tobias Rehberger, BSc. <s2010595021@fhooe.at>
+:deer: Tobias Rehberger, BSc. <s2010595021@fhooe.at>
 
-:information_desk_person: Michael Ulbig, BSc. <s2010595023@efhooe.at>
+:de: Michael Ulbig, BSc. <s2010595023@efhooe.at>
 
 
 ## Documentation
@@ -32,6 +32,24 @@
 
 
 ### Summary of lessons-learned
+
+:tada:
+
+:gift:
+
+:mortar_board:
+
+:bulb:
+
+:information_source:
+
+:white_check_mark:
+
+:x: 	
+
+:heavy_exclamation_mark: 
+
+:bangbang:
 
 
 ### Summary of project (research, tooling, etc.)
