@@ -13,16 +13,16 @@
 Type A
 
 ## Project Description
-Use GitHub and GitHub Actions/Workflow, same as in the lecture. We use Sonarqube to check if there are problems with bugs and vulnerabilities in our code. We also create an automatic release in Github. 
+Use GitHub and GitHub Actions/Workflow, same as in the lecture and many more. We use Sonarqube to check if there are problems with bugs and vulnerabilities in our code. We also create an automatic release in Github.
 
-Read World examples:
-- [x] (1) A developer wants to merge a feature branch into the master branch. Sonarqube is used to check the code quality and block the merge if this pipeline fails. Notification is generated.
+Read world examples / usecases:
+- [x] (1) A developer wants to merge a feature branch into the master branch. Sonarqube is used to check the code quality and block the merge if this pipeline fails. Notification is generated and will be send to the user.
 - [x] (2) There is a new version on the release branch. Versioning in Github with tags and also artifacts (image) is rolled out on Docker automatically.
 - [x] (3) Hotfix is detected and subsequently update with versions on all specified apps are released in corresponding version (major minor patch).
 - [x] (4) After a change on major and minor level the changelog / readme file should be updated with additional information about it. 
 - [x] (5) Automatically download data source(s), preprocess and clean them and store them in the repo (incl. versioning) => Data sets in our repositories should be downloaded automatically (e.g. from a url) and versioned as well. The data can be updated e.g. automatically every six months. The data should then be cleansed with R in order to be able to work with it immediately / easily.
 
-Images in the form of sequence diagrams (as they were also presented in the exercise in the chapter GitFlow) should be created to visualize the use cases.
+Images in the form of sequence diagrams (as they were also presented in the exercise in the chapter GitFlow) should be created to visualize the usecases in detail.
 
 ## Relation to Course
 * Github / Gitlab
@@ -35,15 +35,14 @@ Images in the form of sequence diagrams (as they were also presented in the exer
 * Github / Gitlab
 * CI
 * Sonarqube
+* Python
 * Docker
 * Scrum
 * R
 
 ## Details and Usecases
 
-Details:
-
-see [Project Description](#Project-Description)
+Details: see [Project Description](#Project-Description)
 
 Usecases:
 * [Usecase1](Usecases/Usecase1.md)
