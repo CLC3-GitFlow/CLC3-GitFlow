@@ -13,8 +13,11 @@
 
 ## Team
 :information_desk_person: Benjamin U. Pils, BSc.
+
 :information_desk_person: Tobias Rehberger, BSc.
+
 :information_desk_person: Michael Ulbig, BSc.
+
 
 ## Documentation
 
