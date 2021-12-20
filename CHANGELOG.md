@@ -1,5 +1,25 @@
 # Changelog
 
+## [v1.1.71](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.71) (2021-12-20)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.70...v1.1.71)
+
+## [v1.1.70](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.70) (2021-12-20)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.69...v1.1.70)
+
+## [v1.1.69](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.69) (2021-12-20)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.68...v1.1.69)
+
+## [v1.1.68](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.68) (2021-12-20)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.67...v1.1.68)
+
+## [v1.1.67](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.67) (2021-12-20)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.66...v1.1.67)
+
 ## [v1.1.66](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.66) (2021-12-20)
 
 [Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.65...v1.1.66)
