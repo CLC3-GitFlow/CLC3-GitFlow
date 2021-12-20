@@ -6,7 +6,7 @@ Tool: sequencediagram.org
 ...
 
 ## Sequencediagram
-![Usecase3](Usecases/Images/Usecase3.png)
+![Usecase3](Images/Usecase3.png)
 
 ## Tutorial (step-by-step instructions & reproducibility)
 
