@@ -17,14 +17,6 @@
 [Possible solution for readme update](https://github.community/t/possible-to-commit-files-after-workflow-runs/17824)
 
 
-## Sequence diagrams for all use cases
-
-![Usecase1](Usecases/Usecase1.png)
-![Usecase2](Usecases/Usecase2.png)
-![Usecase3](Usecases/Usecase3.png)
-![Usecase4](Usecases/Usecase4.png)
-![Usecase5](Usecases/Usecase5.png)
-
 # How did we do what?
 
 ## Usecase 1
