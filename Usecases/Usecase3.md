@@ -6,6 +6,7 @@ Hotfix is detected and subsequently update with versions on all specified apps a
 
 ## Sequencediagram
 Tool: [sequencediagram](https://sequencediagram.org/)
+
 ![Usecase3](Images/Usecase3.png)
 
 ## Tutorial (step-by-step instructions & reproducibility)
