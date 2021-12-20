@@ -2,32 +2,39 @@ Tool: https://sequencediagram.org/
 
 title Usecase 1
 
-GitHub->GitHub: Feature Branch in Develop Branch
-GitHub->SonarQube: Codequalität überprüfen
-SonarQube->GitHub: Codequalität Resultat
-GitHub->GitHub: Merge blockieren falls Codequalität nicht passt. Andernfalls Merge zulassen.
-GitHub->User: Info wenn Codequalität failed.
+Github User->Github Pull Request: Pull Request:  Feature Branch to merge in Master Branch
+Github Pull Request->Github Action: Start SonarCloud Workflow
+Github Action->SonarCloud: Check codequality überprüfen
+SonarCloud->Github Action: Codequality result
+Github Pull Request->SonarCloud: Start SonarCloud Code Analysis
+SonarCloud->Github Pull Request: Result of SonarCloud Code Analysis
+Github Pull Request->Github Pull Request: Block pull request if codequality is not okay
+Github Action->User: Notification about Github Action
 
 title Usecase 2
 
-GitHub->GitHub: Neue Version auf Release Branch
-GitHub->GitHub: Neuer Tag wird erstellt.
-GitHub->DockerHub: Image wird im Dockerhub hinterlegt.
+Github<-->Github Action: New version on Release Branch / Master Branch
+Github Action->Github: Tagging new version
+Github Action->Docker Hub: Use tagversion and send image to dockerhub to release a new version
 
 title Usecase 3
 
-GitHub->GitHub: Hotfix wird erkannt als Branch
-GitHub->GitHub: Nach Hofix merge wird automatisch neuer Tag erstellt.
-GitHub->DockerHub: Hofix wird mit einer (major, Minor, Patch) Version released.
-GitHub->User: Info über Hotfix
+Github->Github Pull Request: Hotfix will be merged with a Pull Request
+Github Pull Request->Github Pull Request: Merging the hotfix
+Github->Github: Hofix will get a new (major, minor or patch) version
+Github->User: Information about hotfix
 
 title Usecase 4
 
-GitHub->GitHub: Änderungen im Major und Minor Level wird erkannt.
-GitHub->GitHub: Readme Datei wird automatisch mit Info angepasst.
+Github->Github: Change will be detected
+Github->Github Action: Start Changelog Action
+Github Action->Github: Changelog will be created with further information
 
 title Usecase 5
 
-GitHub<-->ExternalUrl: Datensätze werden regelmäßig abgefragt und im Repo gespeichert.
-GitHub->GitHub: Nach Update der Datensätze werden die Daten automatisch mir R gecleaned.
-GitHub->GitHub: Datensätze werden versioniert.
+Github->Github Action: Start every day Data Download Action
+Github Action<-->External Datasource: Dataset will be downloaded
+Github Action->Github: Update file if a change is detected
+Github Action->Github Action: After updating the file an automatic dataclean step with R will be started.
+Github Action->Github: Save clean data file to repository
+Github->Github: Datasets are versioned
