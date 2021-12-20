@@ -10,4 +10,4 @@ Tool: [sequencediagram](https://sequencediagram.org/)
 
 ## Tutorial (step-by-step instructions & reproducibility)
 
-## Summary of lessons-learned
+## Lessons-learned
