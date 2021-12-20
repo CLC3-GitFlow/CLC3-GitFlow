@@ -6,6 +6,7 @@ There is a new version on the release branch. Versioning in Github with tags and
 
 ## Sequencediagram
 Tool: [sequencediagram](https://sequencediagram.org/)
+
 ![Usecase2](Images/Usecase2.png)
 
 ## Tutorial (step-by-step instructions & reproducibility)
