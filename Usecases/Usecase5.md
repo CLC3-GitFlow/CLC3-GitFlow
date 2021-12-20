@@ -41,6 +41,7 @@ jobs:
           postprocess: data/help/postprocess.ts 
 ```
 
+### Create clean.R file
 Create '/data/help/clean.R' with:
 
 ```
@@ -72,7 +73,8 @@ clean_data <- raw_data %>%
 readr::write_csv(clean_data, "data/output.csv")
 ```
 
-Create '/data/help/clean.R' with:
+### Create postprocess.ts file
+Create '/data/help/postprocess.ts' with:
 
 ```
 // 1. Install necessary packages
@@ -90,6 +92,7 @@ const r_run = Deno.run({
 await r_run.status();
 ```
 
+### Create secret for workflow
 Go to **Settings** --> **Secrets** --> **New repository secret**
 
 Add Name: **"DATA_URL"** 
