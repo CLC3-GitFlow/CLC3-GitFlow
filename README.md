@@ -7,6 +7,26 @@
 [![Issues](https://img.shields.io/github/issues/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](https://github.com/CLC3-GitFlow/CLC3-GitFlow/issues)
 [![Pull requests](https://img.shields.io/github/issues-pr/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pulls)
 
+## Project Type
+Type A
+
+## Project Description
+following ...
+
+## Relation to Course
+* Github / Gitlab
+* CI
+* Automatisation
+* Sonarqube
+* Docker
+
+## Used Technologies
+* Github / Gitlab
+* CI
+* Sonarqube
+* Docker
+* Scrum
+* R
 
 ## Details and Usecases
 
