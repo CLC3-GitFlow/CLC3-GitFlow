@@ -1,7 +1,7 @@
 # Usecase 4
 
 ## Details
-Tool: sequencediagram.org
+Tool: [sequencediagram](https://sequencediagram.org/)
 
 ...
 
