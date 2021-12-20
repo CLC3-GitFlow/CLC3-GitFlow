@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.1.86](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.86) (2021-12-20)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.85...v1.1.86)
+
+## [v1.1.85](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.85) (2021-12-20)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.84...v1.1.85)
+
 ## [v1.1.84](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.84) (2021-12-20)
 
 [Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.83...v1.1.84)
