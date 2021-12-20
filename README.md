@@ -25,7 +25,7 @@ Usecases:
 
 :deer: Tobias Rehberger, BSc. <s2010595021@fhooe.at>
 
-:de: Michael Ulbig, BSc. <s2010595023@efhooe.at>
+:de: Michael Ulbig, BSc. <s2010595023@fhooe.at>
 
 
 ## Documentation
