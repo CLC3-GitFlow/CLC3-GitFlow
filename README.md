@@ -8,8 +8,14 @@
 [![Pull requests](https://img.shields.io/github/issues-pr/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pulls)
 
 
-## Details
+## Details and Usecases
 
+Usecases:
+[Usecase1](Usecases/Usecase1.md)
+[Usecase2](Usecases/Usecase2.md)
+[Usecase3](Usecases/Usecase3.md)
+[Usecase4](Usecases/Usecase4.md)
+[Usecase5](Usecases/Usecase5.md)
 
 ## Team
 :beer: Benjamin U. Pils, BSc. <s2010595016@fhooe.at>
