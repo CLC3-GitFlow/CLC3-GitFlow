@@ -33,7 +33,8 @@ Add Name: **"OUR_GITHUB_TOKEN"**
 
 ### Create tag.yml to your github actions
 If you have created github tocken please create this ```tag.yml``` under your ```/.github/workflows```:
-```name: Increase Tags
+```
+name: Increase Tags
 
 on:
   push:
