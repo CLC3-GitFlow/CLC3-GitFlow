@@ -99,4 +99,4 @@ Add Name: **"DOCKERHUB_TOKEN"**
 .. and **YOUR DOCKERHUB PASSWORD** in the Value field
 
 ## How to start the workflow
-You don't need to trigger the workflow. It will check every day if there is an update on the datasource and will do the workflow automatically. You can trigger it if you want by clicking on 'Actions' --> 'Download Dataset' --> 'Run workflow'. Only if the file was changed it will update the files on Github.
+Create a Pull-Request with changes to merge into the master branch. After merging the Pull-Request into master the workflow will start automatically and you can see the result on hub.docker.com/repository/docker/<DOCKERHUB USER>/app/tags.
