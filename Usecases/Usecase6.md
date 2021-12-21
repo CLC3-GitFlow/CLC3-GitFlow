@@ -69,4 +69,4 @@ Add Name: **"OUR_GITHUB_TOKEN"**
 .. and **YOUR GITHUB TOKEN** in the Value field
 
 ## How to start the workflow
-Create a Pull-Request with changes to merge into the master branch. After creating the Pull-Request the workflow will start automatically.
+Create a Pull-Request with changes to merge into the master branch. After creating the Pull-Request the workflow will start automatically and you can see the result in the README.md file.
