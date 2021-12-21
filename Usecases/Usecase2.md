@@ -12,6 +12,41 @@ Tool: [sequencediagram](https://sequencediagram.org/)
 ## Tutorial (step-by-step instructions & reproducibility)
 
 ### Create Workflow file
+Create '/.github/workflows/tag.yml' with:
+
+```
+name: Increase Tags
+
+on:
+  push:
+    branches: [ master ]  
+    paths-ignore:
+      - '**/CHANGELOG.md'
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.0
+        with:
+          github_token: ${{ secrets.OUR_GITHUB_TOKEN }}
+          
+      - name: Log Version
+        run: echo ${{ steps.tag_version.outputs.new_tag }}
+        
+      - name: Create a GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          body: ${{ steps.tag_version.outputs.changelog }}
+```
+
+### Create Workflow file
 Create '/.github/workflows/docker.yml' with:
 
 ```
@@ -99,4 +134,4 @@ Add Name: **"DOCKERHUB_TOKEN"**
 .. and **YOUR DOCKERHUB PASSWORD** in the Value field
 
 ## How to start the workflow
-Create a Pull-Request with changes to merge into the master branch. After merging the Pull-Request into master the workflow will start automatically and you can see the result on www.hub.docker.com/repository/docker/YOUR_DOCKERHUB_USER/app/tags.
+Create a Pull-Request with changes to merge into the master branch. After merging the Pull-Request into master the workflow will start automatically and you can see the result on www.hub.docker.com/repository/docker/YOUR_DOCKERHUB_USER/app/tags. Also a tag will be created and the tag version of it will be used for the version on dockerhub. This can help to see exactly whitch version on dockerhub is witch version on github.
