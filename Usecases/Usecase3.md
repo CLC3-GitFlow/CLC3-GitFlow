@@ -10,8 +10,9 @@ Tool: [sequencediagram](https://sequencediagram.org/)
 ![Usecase3](Images/Usecase-3.png)
 
 ## Tutorial (step-by-step instructions & reproducibility)
-For this usecase it is necessary to create a github token. If you have not allready create a github action please follow these instructions.
-### Create personal github token for workflow
+For this usecase it is necessary to create a github token. If you have not allready create a github action please follow these instructions create personal github token for workflow and create secret for workflow.
+
+### Create personal github token for workflow 
 You should create a personal access token to use in place of a password with the command line or with the API.
 1. Verify your email address, if it hasn't been verified yet.
 2. In the upper-right corner of any page, click your profile photo, then click Settings.
@@ -22,6 +23,13 @@ You should create a personal access token to use in place of a password with the
 7. To give your token an expiration, select the Expiration drop-down menu, then click a default or use the calendar picker.
 8. Select the scopes, or permissions, you'd like to grant this token. To use your token to access repositories from the command line, select repo.
 9. Click Generate token.
+
+### Create secret for workflow
+Go to **Settings** --> **Secrets** --> **New repository secret**
+
+Add Name: **"OUR_GITHUB_TOKEN"**
+
+.. and **YOUR GITHUB TOKEN** in the Value field
 
 ### Create tag.yml to your github actions
 If you have created github tocken please create this ```tag.yml``` under your ```/.github/workflows```:
@@ -55,7 +63,7 @@ jobs:
           name: Release ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
  ```
-
+## How to start the workflow
 ### Write commit message to be apply hotfix 
 To apply a hotfix, we are using [GitHub Tag Action](https://github.com/mathieudutour/github-tag-action#github-tag-action). This is used to automatically bump and tag master, on merge with the latest SemVer formatted version.  
 1. Write a commit in the commit message of the hotfix commit: ```fix(YourCommitMessage): CommitSubject```
