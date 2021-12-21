@@ -73,40 +73,54 @@ Usecases:
 ![image](https://user-images.githubusercontent.com/68330032/145993696-b4797f1a-3d4f-470d-afe6-9f5fecbfe24c.png)
 [Imagelink](https://nvie.com/posts/a-successful-git-branching-model/)
 
+### Summary of project (research, tooling, etc.)
+
+- GitHub
+  * Actions
+    * Default Actions   
+    * Actions that manipulate the repository tag
+    * Load data automatically
+    * linter
+    * Docker
+  * GitHub secrets
+  * Gitflow
+  * Branch protection rules
+  * GitHub organization
+- SonarCube
+- Docker
+- Markdown
 
 ### Summary of research
+
 
 
 ### Tutorial (step-by-step instructions & reproducibility)
 Please have a look at each Usecase: [Usecase1](Usecases/Usecase1.md) | [Usecase2](Usecases/Usecase2.md) | [Usecase3](Usecases/Usecase3.md) | [Usecase4](Usecases/Usecase4.md) | [Usecase5](Usecases/Usecase5.md) | [Usecase6](Usecases/Usecase6.md)
 
-
 ### Summary of lessons-learned
 
-:tada:
+:tada: We worked great as a team. Especially working via pair programming and scrum helped us a lot with Yak Shaving difficulties.
 
-:gift:
+:gift: In general the majority of the github actions and github workflows are well document.
 
-:mortar_board:
+:mortar_board: Git Actions are really cool and there are almost infinite cases which can be applied.
 
-:bulb:
+:bulb: Workflow jobs can based on predefined Github actions and adapted by command line code snippets.
 
-:information_source:
+:information_source: Similar functions like Github Action are also available other services like Gitlab.
 
-:white_check_mark:
+:white_check_mark: We covered all use cases in our project which harmonize very well.
 
-:x: 	
+:x: No good documentation for changelog integration.
 
-:heavy_exclamation_mark: 
+:heavy_exclamation_mark: Do not forget to address secrets and use the right name.
 
-:bangbang:
-
-
-### Summary of project (research, tooling, etc.)
+:bangbang: Be careful with cyclic running workflows. Do not create an endless cycle.
 
 
 ### Demonstrate advantages gained by Cloud Computing
 
+With the automation that the GitHub workflows provide, it is easy to save a lot of time and ressources. Having the possibility to utilize contiuous intergration and contiuous delivery for automatically building, testing, and deploying projects, without having to worry about local setups is essential. GitHub allows Linux-, Windows-, and macOS-environments for the cloud based runners that execute the workflows. Cloud Computing makes it easy to choose the needed environment without any problems. Nevertheless it is also possible to self-host runners in your own data center or cloud infrastructure. Because of this cloud-based approach, the data that has to be exchanged between the jobs or steps of a workflow does not have to be temporarily saved locally. It can be swapped between the components, as long as the runners are still active. Things like code-checks can be done in one place and the people that work on a repository do not have to set up everything locally.
 
 ## Last information
 
