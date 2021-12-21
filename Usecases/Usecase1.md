@@ -7,7 +7,7 @@ A developer wants to merge a feature branch into the master branch. Sonarqube is
 ## Sequencediagram
 Tool: [sequencediagram](https://sequencediagram.org/)
 
-![Usecase1](Images/Usecase1.png)
+![Usecase1](Images/Usecase-1.png)
 
 ## Tutorial (step-by-step instructions & reproducibility)
 
