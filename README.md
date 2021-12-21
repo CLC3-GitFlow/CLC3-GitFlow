@@ -68,7 +68,7 @@ Usecases:
 ## Documentation
 
 
-### Structure, Language & Illustrations
+### Procedure
 
 ![image](https://user-images.githubusercontent.com/68330032/145993696-b4797f1a-3d4f-470d-afe6-9f5fecbfe24c.png)
 [Imagelink](https://nvie.com/posts/a-successful-git-branching-model/)
