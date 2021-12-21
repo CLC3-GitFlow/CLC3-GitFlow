@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.1.154](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.154) (2021-12-21)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.153...v1.1.154)
+
+**Merged pull requests:**
+
+- Update ReadMe.md [\#23](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pull/23) ([BenjaminPils](https://github.com/BenjaminPils))
+
 ## [v1.1.153](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.153) (2021-12-21)
 
 [Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.152...v1.1.153)
