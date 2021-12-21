@@ -124,4 +124,4 @@ With the automation that the GitHub workflows provide, it is easy to save a lot 
 
 ## Last information
 
-
+Just do it ;) (use GitHub Actions)
