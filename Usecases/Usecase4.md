@@ -11,4 +11,4 @@ Tool: [sequencediagram](https://sequencediagram.org/)
 
 ## Tutorial (step-by-step instructions & reproducibility)
 
-## Lessons-learned
+## How to start a workflow
