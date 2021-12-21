@@ -45,7 +45,7 @@ Add Name: **"OUR_GITHUB_TOKEN"**
 .. and **YOUR GITHUB TOKEN** in the Value field
 
 ### Create/Use an Email account
-- IMAP und SMB must be activated
+- IMAP und SMB must be activated in your Email settings
 - Add the email username to GitHub secrets as EMAIL_USERNAME
 - Add the email password to GitHub secrets as EMAIL_PASSWORD
 
