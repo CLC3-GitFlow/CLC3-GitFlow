@@ -37,6 +37,13 @@ You should create a personal access token to use in place of a password with the
 8. Select the scopes, or permissions, you'd like to grant this token. To use your token to access repositories from the command line, select repo.
 9. Click Generate token.
 
+### Create secret for workflow
+Go to **Settings** --> **Secrets** --> **New repository secret**
+
+Add Name: **"OUR_GITHUB_TOKEN"**
+
+.. and **YOUR GITHUB TOKEN** in the Value field
+
 ### Create/Use an Email account
 - IMAP und SMB must be activated
 - Add the email username to GitHub secrets as EMAIL_USERNAME
@@ -82,6 +89,13 @@ jobs:
           to: ${{ secrets.EMAIL_USERNAME }}
           from: CLC3 Gitflow
 ```
+
+### How to prevent merging with errors in sonar
+Go to 'Settings' --> 'Branches' --> 'Add rule'
+
+Branch name pattern: "master"
+
+Check 'Require status checks to pass before merging' on and search in the searchbar for 'SonarCloud Code Analysis' and click on it.
 
 ## How to start a workflow
 Starts with a pull-request on the master branch, when the pull-request is either opened, synchronized or repopened
