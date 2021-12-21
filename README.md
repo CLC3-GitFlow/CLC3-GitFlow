@@ -1,6 +1,7 @@
 # CLC3-GitFlow 
 
 ![image](/.github/Gitflow.png)
+
 [Imagelink](https://dev.to/hvdb/build-versioning-made-easy-on-azure-devops-1e33)
 
 ## Status
