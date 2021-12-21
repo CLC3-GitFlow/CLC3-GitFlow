@@ -1,5 +1,8 @@
 # CLC3-GitFlow 
 
+![image](/.github/Gitflow.png)
+[Imagelink](https://dev.to/hvdb/build-versioning-made-easy-on-azure-devops-1e33)
+
 ## Status
 [![License](https://img.shields.io/github/license/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/CLC3-GitFlow/CLC3-GitFlow.svg?style=flat-square)](https://github.com/CLC3-GitFlow/CLC3-GitFlow/commits)
