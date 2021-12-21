@@ -36,11 +36,7 @@ def api_all():
 
 
 @app.route('/api/v1/resources/books', methods=['GET'])
-def api_id():
-    # Check if an ID was provided as part of the URL.
-    # If ID is provided, assign it to a variable.
-    # If no ID is provided, display an error in the browser.
-    
+def api_id():    
     if 'id' in request.args:
         id = int(request.args['id'])
     else:
