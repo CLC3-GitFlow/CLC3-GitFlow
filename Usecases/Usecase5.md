@@ -101,4 +101,4 @@ Add Name: **"DATA_URL"**
 .. and **YOUR URL** in the Value field
 
 ## How to start the workflow
-You don't need to trigger the workflow. It will check every day if there is an update on the datasource and will the the workflow automatically. You can trigger it if you want by clicking on 'Actions' --> 'Download Dataset' --> 'Run workflow'. Only if the file was changed it will update the files on Github.
+You don't need to trigger the workflow. It will check every day if there is an update on the datasource and will do the workflow automatically. You can trigger it if you want by clicking on 'Actions' --> 'Download Dataset' --> 'Run workflow'. Only if the file was changed it will update the files on Github.
