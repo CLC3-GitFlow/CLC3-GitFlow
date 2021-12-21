@@ -99,4 +99,4 @@ Add Name: **"DOCKERHUB_TOKEN"**
 .. and **YOUR DOCKERHUB PASSWORD** in the Value field
 
 ## How to start the workflow
-Create a Pull-Request with changes to merge into the master branch. After merging the Pull-Request into master the workflow will start automatically and you can see the result on www.hub.docker.com/repository/docker/<DOCKERHUB USER>/app/tags.
+Create a Pull-Request with changes to merge into the master branch. After merging the Pull-Request into master the workflow will start automatically and you can see the result on www.hub.docker.com/repository/docker/YOUR_DOCKERHUB_USER/app/tags.
