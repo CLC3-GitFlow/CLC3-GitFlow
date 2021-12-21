@@ -55,6 +55,7 @@ Usecases:
 * [Usecase3](Usecases/Usecase3.md)
 * [Usecase4](Usecases/Usecase4.md)
 * [Usecase5](Usecases/Usecase5.md)
+* [Usecase6](Usecases/Usecase6.md)
 
 ## Team
 :beer: Benjamin U. Pils, BSc. <s2010595016@fhooe.at>
@@ -77,7 +78,7 @@ Usecases:
 
 
 ### Tutorial (step-by-step instructions & reproducibility)
-Please have a look at each Usecase: [Usecase1](Usecases/Usecase1.md) | [Usecase2](Usecases/Usecase2.md) | [Usecase3](Usecases/Usecase3.md) | [Usecase4](Usecases/Usecase4.md) | [Usecase5](Usecases/Usecase5.md)
+Please have a look at each Usecase: [Usecase1](Usecases/Usecase1.md) | [Usecase2](Usecases/Usecase2.md) | [Usecase3](Usecases/Usecase3.md) | [Usecase4](Usecases/Usecase4.md) | [Usecase5](Usecases/Usecase5.md) | [Usecase6](Usecases/Usecase6.md)
 
 
 ### Summary of lessons-learned
