@@ -43,6 +43,6 @@ title Usecase 6
 
 Github->Github Pull Request: Pull Request:  any Branch to merge in Master Branch
 Github Pull Request->Github Action: Start Linter Workflow
-Github Action->Python Code Linter: Check codequality with linkter
+Github Action->Python Code Linter: Check codequality with linter
 Python Code Linter->Github Action: Codequality result
 Github Action->Github: Information about Github Action (Linter) in ReadMe file
