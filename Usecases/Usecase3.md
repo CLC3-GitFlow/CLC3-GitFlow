@@ -69,6 +69,3 @@ jobs:
 To apply a hotfix, we are using [GitHub Tag Action](https://github.com/mathieudutour/github-tag-action#github-tag-action). This is used to automatically bump and tag master, on merge with the latest SemVer formatted version.  
 1. Write a commit in the commit message of the hotfix commit: ```fix(YourCommitMessage): CommitSubject```
 2. Make Pull Request to this commit to apply the hotfix 
-
-The hotfix will be automatically merge to develop and master and the patch release will be increased by one.
-
