@@ -23,7 +23,7 @@ You should create a personal access token to use in place of a password with the
 8. Select the scopes, or permissions, you'd like to grant this token. To use your token to access repositories from the command line, select repo.
 9. Click Generate token.
 
-### Create tag.yml
+### Create tag.yml to your github actions
 If you have created github tocken please create this ```tag.yml``` under your ```/.github/workflows```:
 ```name: Increase Tags
 
@@ -56,7 +56,7 @@ jobs:
           body: ${{ steps.tag_version.outputs.changelog }}
  ```
 
-
+### Write commit message to be apply hotfix 
 To apply a hotfix, we are using [GitHub Tag Action](https://github.com/mathieudutour/github-tag-action#github-tag-action). This is used to automatically bump and tag master, on merge with the latest SemVer formatted version.  
 1. Write a commit in the commit message of the hotfix commit: ```fix(YourCommitMessage): CommitSubject```
 2. Make Pull Request to this commit to apply the hotfix 
