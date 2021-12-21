@@ -25,6 +25,7 @@ Read world examples / usecases:
 - [x] (3) Hotfix is detected and subsequently update with versions on all specified apps are released in corresponding version (major minor patch).
 - [x] (4) After a change on major and minor level the changelog / readme file should be updated with additional information about it. 
 - [x] (5) Automatically download data source(s), preprocess and clean them and store them in the repo (incl. versioning) => Data sets in our repositories should be downloaded automatically (e.g. from a url) and versioned as well. The data can be updated e.g. automatically every six months. The data should then be cleansed with R in order to be able to work with it immediately / easily.
+- [x] (6) A developer wants to merge a update into master branch. A code linter should automatically start after creating pull request und start to lint the code. Information about linter status should be visual in the Readme file.
 
 Images in the form of sequence diagrams (as they were also presented in the exercise in the chapter GitFlow) should be created to visualize the usecases in detail.
 
