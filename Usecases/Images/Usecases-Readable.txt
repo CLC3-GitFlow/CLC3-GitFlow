@@ -4,7 +4,7 @@ title Usecase 1
 
 Github User->Github Pull Request: Pull Request:  Feature Branch to merge in Master Branch
 Github Pull Request->Github Action: Start SonarCloud Workflow
-Github Action->SonarCloud: Check codequality überprüfen
+Github Action->SonarCloud: Check codequality
 SonarCloud->Github Action: Codequality result
 Github Pull Request->SonarCloud: Start SonarCloud Code Analysis
 SonarCloud->Github Pull Request: Result of SonarCloud Code Analysis
@@ -38,3 +38,11 @@ Github Action->Github: Update file if a change is detected
 Github Action->Github Action: After updating the file an automatic dataclean step with R will be started.
 Github Action->Github: Save clean data file to repository
 Github->Github: Datasets are versioned
+
+title Usecase 6
+
+Github->Github Pull Request: Pull Request:  any Branch to merge in Master Branch
+Github Pull Request->Github Action: Start Linter Workflow
+Github Action->Python Code Linter: Check codequality with linkter
+Python Code Linter->Github Action: Codequality result
+Github Action->Github: Information about Github Action (Linter) in ReadMe file
