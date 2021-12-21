@@ -49,6 +49,18 @@ Update 'README.md' with:
 [![GitHub Super-Linter](https://github.com/<USER>/<REPO>/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 ```
 
+### Create personal github token for workflow
+You should create a personal access token to use in place of a password with the command line or with the API.
+1. Verify your email address, if it hasn't been verified yet.
+2. In the upper-right corner of any page, click your profile photo, then click Settings. 
+3. In the left sidebar, click Developer settings. 
+4. In the left sidebar, click Personal access tokens. 
+5. Click Generate new token. 
+6. Give your token a descriptive name. 
+7. To give your token an expiration, select the Expiration drop-down menu, then click a default or use the calendar picker. 
+8. Select the scopes, or permissions, you'd like to grant this token. To use your token to access repositories from the command line, select repo.
+9. Click Generate token. 
+
 ### Create secret for workflow
 Go to **Settings** --> **Secrets** --> **New repository secret**
 
