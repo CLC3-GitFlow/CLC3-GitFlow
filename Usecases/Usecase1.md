@@ -50,6 +50,8 @@ Add Name: **"OUR_GITHUB_TOKEN"**
 - Add the email password to GitHub secrets as EMAIL_PASSWORD
 
 ### Create Workflow file
+Update the workflow file with your own email account settings. In this example GMAIL was used.
+
 create '/.github/workflows/sonar.yml' with:
 
 ```
