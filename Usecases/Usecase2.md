@@ -92,11 +92,11 @@ Add Name: **"OUR_GITHUB_TOKEN"**
 
 Add Name: **"DOCKERHUB_USERNAME"**
 
-.. and **YOUR DOKERHUB USERNAME** in the Value field
+.. and **YOUR DOCKERHUB USERNAME** in the Value field
 
 Add Name: **"DOCKERHUB_TOKEN"**
 
-.. and **YOUR DOKERHUB PASSWORD** in the Value field
+.. and **YOUR DOCKERHUB PASSWORD** in the Value field
 
 ## How to start the workflow
 You don't need to trigger the workflow. It will check every day if there is an update on the datasource and will do the workflow automatically. You can trigger it if you want by clicking on 'Actions' --> 'Download Dataset' --> 'Run workflow'. Only if the file was changed it will update the files on Github.
