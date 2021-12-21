@@ -92,7 +92,7 @@ Usecases:
 
 ### Summary of research
 
-
+writing actions yourself is not that complicated. easy to use. Exchanging data between workflows is not possible (has to be saved in repository for use in other workflow). When automatically merging branches -> be careful. Sometimes not the behaviour you would expect.
 
 ### Tutorial (step-by-step instructions & reproducibility)
 Please have a look at each Usecase: [Usecase1](Usecases/Usecase1.md) | [Usecase2](Usecases/Usecase2.md) | [Usecase3](Usecases/Usecase3.md) | [Usecase4](Usecases/Usecase4.md) | [Usecase5](Usecases/Usecase5.md) | [Usecase6](Usecases/Usecase6.md)
@@ -120,7 +120,7 @@ Please have a look at each Usecase: [Usecase1](Usecases/Usecase1.md) | [Usecase2
 
 ### Demonstrate advantages gained by Cloud Computing
 
-With the automation that the GitHub workflows provide, it is easy to save a lot of time and ressources. Having the possibility to utilize contiuous intergration and contiuous delivery for automatically building, testing, and deploying projects, without having to worry about local setups is essential. GitHub allows Linux-, Windows-, and macOS-environments for the cloud based runners that execute the workflows. Cloud Computing makes it easy to choose the needed environment without any problems. Nevertheless it is also possible to self-host runners in your own data center or cloud infrastructure. Because of this cloud-based approach, the data that has to be exchanged between the jobs or steps of a workflow does not have to be temporarily saved locally. It can be swapped between the components, as long as the runners are still active. Things like code-checks can be done in one place and the people that work on a repository do not have to set up everything locally.
+With the automation that the GitHub workflows provide, it is easy to save a lot of time and resources. Having the possibility to utilize contiuous intergration and contiuous delivery for automatically building, testing, and deploying projects, without having to worry about local setups is essential. GitHub allows Linux-, Windows-, and macOS-environments for the cloud based runners that execute the workflows. Cloud Computing makes it easy to choose the needed environment without any problems. Nevertheless it is also possible to self-host runners in your own data center or cloud infrastructure. Because of this cloud-based approach, the data that has to be exchanged between the jobs or steps of a workflow does not have to be temporarily saved locally. It can be swapped between the components, as long as the runners are still active. Things like code-checks can be done in one place and the people that work on a repository do not have to set up everything locally.
 
 ## Last information
 
