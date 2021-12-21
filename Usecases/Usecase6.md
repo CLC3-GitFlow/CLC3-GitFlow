@@ -7,7 +7,7 @@ A developer wants to merge a update into master branch. A code linter should aut
 ## Sequencediagram
 Tool: [sequencediagram](https://sequencediagram.org/)
 
-![Usecase6](Images/Usecase6.png)
+![Usecase6](Images/Usecase-6.png)
 
 ## Tutorial (step-by-step instructions & reproducibility)
 
