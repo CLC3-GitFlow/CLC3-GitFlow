@@ -91,8 +91,9 @@ Usecases:
 - Markdown
 
 ### Summary of research
+We discovered that Github Actions can be very vercitile and be applied to many different fields. An example for software engineering in our project would be the code validation with sonar cube. An example for a use of Data Sience is to version your data like described in use case 5. But during our research we hat also a glimbse at many other possibilities where Github actions are already used.
 
-writing actions yourself is not that complicated. easy to use. Exchanging data between workflows is not possible (has to be saved in repository for use in other workflow). When automatically merging branches -> be careful. Sometimes not the behaviour you would expect.
+Also we found that writing actions yourself is not that complicated and easy to use. It's especially impressive how much can be achived with very a rather small yaml snippet. But we also expirienced that exchanging data between workflows is not possible since the data has to be saved in repository before another workflow can use it. Also you have to be very careful with automatically merging branches because it can have sometimes some unexpected behaviour.
 
 ### Tutorial (step-by-step instructions & reproducibility)
 Please have a look at each Usecase: [Usecase1](Usecases/Usecase1.md) | [Usecase2](Usecases/Usecase2.md) | [Usecase3](Usecases/Usecase3.md) | [Usecase4](Usecases/Usecase4.md) | [Usecase5](Usecases/Usecase5.md) | [Usecase6](Usecases/Usecase6.md)
