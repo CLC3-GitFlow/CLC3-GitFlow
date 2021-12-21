@@ -43,9 +43,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }}
 ```
 
-Update 'ReadMe.md' with:
+### Update README.md file
+Update 'README.md' with:
 ```
 [![GitHub Super-Linter](https://github.com/<USER>/<REPO>/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 ```
+
+### Create secret for workflow
+Go to **Settings** --> **Secrets** --> **New repository secret**
+
+Add Name: **"OUR_GITHUB_TOKEN"** 
+
+.. and **YOUR GITHUB TOKEN** in the Value field
 
 ## Lessons-learned
