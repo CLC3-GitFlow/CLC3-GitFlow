@@ -7,7 +7,7 @@ Automatically download data source(s), preprocess and clean them and store them 
 ## Sequencediagram
 Tool: [sequencediagram](https://sequencediagram.org/)
 
-![Usecase5](Images/Usecase5.png)
+![Usecase5](Images/Usecase-5.png)
 
 ## Tutorial (step-by-step instructions & reproducibility)
 
