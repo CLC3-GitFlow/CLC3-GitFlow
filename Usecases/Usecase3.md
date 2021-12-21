@@ -69,3 +69,52 @@ jobs:
 To apply a hotfix, we are using [GitHub Tag Action](https://github.com/mathieudutour/github-tag-action#github-tag-action). This is used to automatically bump and tag master, on merge with the latest SemVer formatted version.  
 1. Write a commit in the commit message of the hotfix commit: ```fix(YourCommitMessage): CommitSubject```
 2. Make Pull Request to this commit to apply the hotfix 
+
+The action will parse the new commits since the last tag using the [semantic-release](https://github.com/semantic-release/semantic-release) conventions.
+
+semantic-release uses the commit messages to determine the type of changes in the codebase. Following formalized conventions for commit messages, semantic-release automatically determines the next [semantic version](https://semver.org) number.
+
+By default semantic-release uses [Angular Commit Message Conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines).
+
+Here is an example of the release type that will be done based on a commit messages:
+
+<table>
+<tr>
+<td> Commit message </td> <td> Release type </td>
+</tr>
+<tr>
+<td>
+
+```
+fix(pencil): stop graphite breaking when too much pressure applied
+```
+
+</td>
+<td>Patch Release</td>
+</tr>
+<tr>
+<td>
+
+```
+feat(pencil): add 'graphiteWidth' option
+```
+
+</td>
+<td>Minor Release</td>
+</tr>
+<tr>
+<td>
+
+```
+perf(pencil): remove graphiteWidth option
+
+BREAKING CHANGE: The graphiteWidth option has been removed.
+The default graphite width of 10mm is always used for performance reasons.
+```
+
+</td>
+<td>Major Release</td>
+</tr>
+</table>
+
+If no commit message contains any information, then **default_bump** will be used.
