@@ -97,5 +97,7 @@ Branch name pattern: "master"
 
 Check 'Require status checks to pass before merging' on and search in the searchbar for 'SonarCloud Code Analysis' and click on it.
 
+Save the rule.
+
 ## How to start the workflow
-Starts with a pull-request on the master branch, when the pull-request is either opened, synchronized or repopened
+Starts with a pull-request on the master branch, when the pull-request is either opened, synchronized or repopened.
