@@ -96,6 +96,10 @@ We discovered that Github Actions can be very vercitile and be applied to many d
 
 Also we found that writing actions yourself is not that complicated and easy to use. It's especially impressive how much can be achived with very a rather small yaml snippet. But we also expirienced that exchanging data between workflows is not possible since the data has to be saved in repository before another workflow can use it. Also you have to be very careful with automatically merging branches because it can have sometimes some unexpected behaviour.
 
+GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want. Kick off workflows with GitHub events like push, issue creation, or a new release. Combine and configure actions for the services you use, built and maintained by the community. 
+
+Whether you want to build a container, deploy a web service, or automate welcoming new users to your open source projects—there's an action for that. Pair GitHub Packages with Actions to simplify package management, including version updates, fast distribution with our global CDN, and dependency resolution, using your existing GITHUB_TOKEN. GitHub Actions connects all of your tools to automate every step of your development workflow. Easily deploy to any cloud, create tickets in Jira, or publish a package to npm.
+
 ### Tutorial (step-by-step instructions & reproducibility)
 Please have a look at each Usecase: [Usecase1](Usecases/Usecase1.md) | [Usecase2](Usecases/Usecase2.md) | [Usecase3](Usecases/Usecase3.md) | [Usecase4](Usecases/Usecase4.md) | [Usecase5](Usecases/Usecase5.md) | [Usecase6](Usecases/Usecase6.md)
 
