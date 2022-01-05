@@ -14,6 +14,8 @@
 
 [Projectlist](https://docs.google.com/spreadsheets/d/1TND9vrQhHt1GK2RZ2cM7CNtNGox4a7Rkn2qamFMTSvg/edit#gid=0)
 
+[Presentation-Link](https://docs.google.com/presentation/d/1OSACNhMnlemFS1ElvptVAyNODpB0P0ayLPeOMtxH2bc/edit?usp=sharing)
+
 ## Project Type
 Type A
 
