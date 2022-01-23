@@ -18,19 +18,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.OUR_GITHUB_TOKEN }}  
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           
-      - name: Send mail
-        if: always()
-        uses: dawidd6/action-send-mail@v2
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
+      #- name: Send mail
+        #if: always()
+        #uses: dawidd6/action-send-mail@v2
+        #with:
+          #server_address: smtp.gmail.com
+          #server_port: 465
+          #secure: true
 
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
+          #username: ${{ secrets.EMAIL_USERNAME }}
+          #password: ${{ secrets.EMAIL_PASSWORD }}
 
-          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
-          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
-          to: ${{ secrets.EMAIL_USERNAME }}
-          from: CLC3 Gitflow
+          #subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+          #body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+          #to: ${{ secrets.EMAIL_USERNAME }}
+          #from: CLC3 Gitflow
 
