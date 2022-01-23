@@ -1,5 +1,4 @@
 # CLC3-GitFlow 
-## Hello there hotfix_5
 
 ![image](/.github/Gitflow.png)
 
