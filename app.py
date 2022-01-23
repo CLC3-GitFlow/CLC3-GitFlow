@@ -32,7 +32,7 @@ def home():
 
 @app.route('/api/v1/resources/books/all', methods=['GET'])
 def api_all():
-    return jsonify(books)
+    return jsonify(letters_on_paper)
 
 
 @app.route('/api/v1/resources/books', methods=['GET'])
