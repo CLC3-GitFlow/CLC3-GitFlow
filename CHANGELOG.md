@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.2.0](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.2.0) (2022-01-23)
+
+[Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.160...v1.2.0)
+
+**Merged pull requests:**
+
+- Changed stuff [\#29](https://github.com/CLC3-GitFlow/CLC3-GitFlow/pull/29) ([AnanasReh](https://github.com/AnanasReh))
+
 ## [v1.1.160](https://github.com/CLC3-GitFlow/CLC3-GitFlow/tree/v1.1.160) (2022-01-23)
 
 [Full Changelog](https://github.com/CLC3-GitFlow/CLC3-GitFlow/compare/v1.1.159...v1.1.160)
