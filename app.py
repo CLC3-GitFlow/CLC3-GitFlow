@@ -5,7 +5,7 @@ app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
 # Create some test data for our catalog in the form of a list of dictionaries.
-books = [
+letters_on_paper = [
     {'id': 0,
      'title': 'A Fire Upon the Deep',
      'author': 'Vernor Vinge',
@@ -51,7 +51,7 @@ def api_id():
 
     # Loop through the data and match results that fit the requested ID.
     # IDs are unique, but other fields might return many results
-    for book in books:
+    for book in letters_on_paper:
         if book['id'] == id:
             results.append(book)
 
