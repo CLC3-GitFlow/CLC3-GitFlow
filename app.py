@@ -1,7 +1,6 @@
 import flask
 from flask import request, jsonify
 
-# cool code bro
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
