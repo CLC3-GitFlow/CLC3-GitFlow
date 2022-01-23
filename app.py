@@ -1,11 +1,11 @@
 import flask
 from flask import request, jsonify
 
-app = flask.Flask(__name__)
-app.config["DEBUG"] = True
+application = flask.Flask(__name__)
+application.config["DEBUG"] = True
 
 # Create some test data for our catalog in the form of a list of dictionaries.
-books = [
+b = [
     {'id': 0,
      'title': 'A Fire Upon the Deep',
      'author': 'Vernor Vinge',
@@ -32,7 +32,7 @@ def home():
 
 @app.route('/api/v1/resources/books/all', methods=['GET'])
 def api_all():
-    return jsonify(books)
+    return jsonify(b)
 
 
 @app.route('/api/v1/resources/books', methods=['GET'])
@@ -51,7 +51,7 @@ def api_id():
 
     # Loop through the data and match results that fit the requested ID.
     # IDs are unique, but other fields might return many results
-    for book in books:
+    for book in b:
         if book['id'] == id:
             results.append(book)
 
@@ -59,4 +59,4 @@ def api_id():
     # Python dictionaries to the JSON format.
     return jsonify(results)
 
-app.run()
+application.run()
